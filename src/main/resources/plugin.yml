@@ -1,0 +1,17 @@
+name: ItemsAdderToBedrock
+main: com.kodari.iaconvert.ItemsAdderToBedrock
+version: 1.0.0
+api-version: '1.21'
+author: Kodari
+description: Converts ItemsAdder Java resource packs to Bedrock .mcpack format.
+
+commands:
+  iaconvert:
+    description: Converts the ItemsAdder resource pack to a Bedrock .mcpack file.
+    usage: /iaconvert
+    permission: iaconvert.admin
+
+permissions:
+  iaconvert.admin:
+    description: Allows executing the /iaconvert command.
+    default: op
